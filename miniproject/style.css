@@ -1,0 +1,88 @@
+body{
+    background:#4300be;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+input[type="text"]{
+    outline: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+input[type="submit"]{
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background: rgb(170, 182, 2);
+    color: white;
+    width: 90px;
+}
+
+input[type="submit"]:hover {
+    background: rgb(2, 182, 59);
+    cursor: pointer;
+    box-shadow: 3px 3px 7px black;
+}
+
+.to-list{
+    display: block;
+    margin: 11px auto;
+    border-radius: 20px;
+    font-size: 20px;
+    background: rgb(170, 182, 2);
+    color: white;
+    width: 90px;
+}
+
+.to-list:hover{
+    background: rgb(2, 182, 59);
+    cursor: pointer;
+    box-shadow: 3px 3px 7px black;
+}
+
+.list-names{
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+    color: white;
+}
+
+.list-names button{
+    background: rgb(172, 0, 0);
+    font-size: 17px;
+    border-radius: 10px;
+    margin-top: 6px;
+    color: white;
+    padding: 6px 11px;
+}
+
+.list-names button:hover{
+    background: rgb(240, 0, 0);
+    box-shadow: 3px 3px 7px black;
+}
+
+.list-names span{
+    margin-left: 18px;
+    font-size: 24px;
+}
+
+.adult{
+    text-decoration: underline;
+    color: green;
+}
+
+.no-adult{
+    color:red;
+}
